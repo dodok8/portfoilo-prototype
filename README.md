@@ -10,11 +10,11 @@
 
   - Grid System 으로 작성 중
 
-- [x] 카드 오버플로우 시 내용 보여주기
+- [x] 카드 호버 시 내용 보여주기
 
   - `:after`와 `before`, `:hover`활용,`opacity` 조정함.
 
-- [X] 카드에 리본 달기
+- [x] 카드에 리본 달기
 
   - <https://codepen.io/wesleycole/pen/Gaufy>
 
@@ -23,6 +23,8 @@
   - 이 둘을 참고해서 작업 중
 
   - `overflow: hidden`을 사용해서 잘라버릴 수 있다.
+
+- [ ] 카드 리본 호버 시 톨팁 보여주기
 
 - [x] 배경에 비네팅 넣기
 

@@ -48,6 +48,7 @@ h1 {
   align-items: center;
   justify-content: center;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  z-index: 0;
 }
 
 .react {
@@ -74,8 +75,8 @@ h1 {
   height: 33%;
   overflow: hidden;
   position: absolute;
-  top: -3px;
-  right: -3px;
+  top: 0;
+  right: 0;
 }
 
 .tech .ribbon-wrapper .ribbon-label {

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #505050;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#root::before {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  content: "";
+  box-shadow: 0px 0px 220px black inset;
+
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.table-wrapper {
+  width: 800px;
+  height: 500px;
+
+  background: #f0f0f0;
+
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.react {
+  background-image: url(assets/react.png);
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.tech-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f0f0f0;
+  background-color: #505050;
+}
+
+.tech::after {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  content: "React";
+  font-size: 2rem;
+  font-weight: 400;
+  color: #f0f0f0;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  opacity: 0%;
+  transition: opacity 0.5s;
+  width: 100%;
+}
+
+.tech:hover::after {
+  opacity: 100%;
+}

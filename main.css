@@ -88,7 +88,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 200;
+  z-index: 1;
   font-weight: 500;
   font-size: 22px;
   pointer-events: none;
@@ -107,6 +107,37 @@ h1 {
 
 .advanced {
   background-color: hsl(41, 100%, 60%);
+}
+
+.ribbon-tooltips {
+  visibility: hidden;
+  width: 120px;
+  background-color: #2d2d2d;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  left: 160px;
+  top: -3px;
+  z-index: 2;
+}
+
+.ribbon-wrapper:hover ~ .ribbon-tooltips {
+  visibility: visible;
+}
+
+.ribbon-tooltips::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #2d2d2d transparent transparent;
 }
 
 .tech::before {

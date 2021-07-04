@@ -48,7 +48,12 @@ h1 {
   grid-template-columns: repeat(5, 150px);
   grid-template-rows: repeat(2, 150px);
   gap: 50px 50px;
-  place-items: center;
+  place-items: start center;
+}
+
+.card:nth-child(1) {
+  grid-column: 1 / 1;
+  grid-row: 1 / 3;
 }
 
 .card {

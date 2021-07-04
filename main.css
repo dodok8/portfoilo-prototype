@@ -89,8 +89,8 @@ h1 {
   height: 33%;
   overflow: hidden;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -3px;
+  right: -3px;
 }
 
 .tech .ribbon-wrapper .ribbon-label {
@@ -103,7 +103,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1;
   font-weight: 500;
   font-size: 22px;
   pointer-events: none;

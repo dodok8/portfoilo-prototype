@@ -43,6 +43,7 @@ h1 {
 .card {
   width: 150px;
   height: 150px;
+  margin: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +65,49 @@ h1 {
   background-color: #505050;
 }
 
-.tech::after {
+.tech {
+  position: relative;
+}
+
+.tech .ribbon-wrapper {
+  width: 33%;
+  height: 33%;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+}
+
+.tech .ribbon-wrapper .ribbon-label {
+  width: 50%;
+  height: 50%;
+  color: #ffffff;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  font-weight: 500;
+}
+
+.tech .ribbon-wrapper .ribbon {
+  position: relative;
+  right: 0px;
+  top: 0px;
+  color: #333;
+  transform-origin: 0% 0%;
+  transform: rotate(-45deg);
+  height: 71px;
+  width: 35px;
+}
+
+.advanced {
+  background-color: hsl(41, 100%, 60%);
+}
+
+.tech::before {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
   content: "React";
@@ -79,6 +122,6 @@ h1 {
   width: 100%;
 }
 
-.tech:hover::after {
+.tech:hover::before {
   opacity: 100%;
 }

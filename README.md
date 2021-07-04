@@ -6,11 +6,13 @@
 
 - [ ] 카드 만들고 정렬하기
 
+  - <https://studiomeal.com/archives/533>
+
   - Grid System 으로 작성 중
 
 - [x] 카드 오버플로우 시 내용 보여주기
 
-  - `:after`와 `:hover` 활용, `opacity` 조정함.
+  - `:after`와 `before`, `:hover`활용,`opacity` 조정함.
 
 - [ ] 카드에 리본 달기
 

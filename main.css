@@ -91,6 +91,7 @@ h1 {
   z-index: 200;
   font-weight: 500;
   font-size: 22px;
+  pointer-events: none;
 }
 
 .tech .ribbon-wrapper .ribbon {

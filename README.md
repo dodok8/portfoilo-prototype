@@ -14,7 +14,7 @@
 
   - `:after`와 `before`, `:hover`활용,`opacity` 조정함.
 
-- [ ] 카드에 리본 달기
+- [X] 카드에 리본 달기
 
   - <https://codepen.io/wesleycole/pen/Gaufy>
 

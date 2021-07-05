@@ -1,32 +1,16 @@
-# Portifolio-cards-table
+# Portifolio-Prototype
 
 포트폴리오 페이지에 사용할 기술 스택 페이지의 일부 구현입니다.
 
 ## 구현한 것
 
-- [X] 카드 만들고 정렬하기
-
-  - <https://studiomeal.com/archives/533>
-
-  - Grid System 으로 작성 중
-
-- [x] 카드 호버 시 내용 보여주기
-
-  - `:after`와 `before`, `:hover`활용,`opacity` 조정함.
-
-- [x] 카드에 리본 달기
-
-  - <https://codepen.io/wesleycole/pen/Gaufy>
-
-  - <https://codepen.io/nxworld/pen/oLdoWb>
-
-  - 이 둘을 참고해서 작업 중
-
-  - `overflow: hidden`을 사용해서 잘라버릴 수 있다.
-
-- [X] 카드 리본 호버 시 톨팁 보여주기
+### portfoloi-cards-table
 
 - [x] 배경에 비네팅 넣기
+- [x] 카드 만들기
+- [x] 카드에 리본 달기
+- [x] 리본에 호버시 툴팁 보여주기
+- [x] Grid System을 이용한 정렬
 
 ## 궁금한 것
 
@@ -46,3 +30,4 @@
 ```
 
 이걸 `body`에 달던, `body`의 의사 객체에 달던 이상한 경계가 생긴다. 왜 생길까?
+
